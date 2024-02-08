@@ -367,14 +367,11 @@ header {
     width: 90%;
     margin: auto;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-    
 }
 #tabel tr td {
     text-align: center;
     padding-top: 18px;
     padding-bottom: 18px;
-
-    
 }
 #tabel tr th {
     background-color: #456797;
@@ -382,7 +379,6 @@ header {
     border-width: 1px;
     padding: 15px 0 ;
     color: white;
-    
 }
 .grey {
     color: grey;
@@ -424,3 +420,43 @@ tr {
 /* ------------------------------------------- */
 
 
+#container {
+    border: black 1px solid;
+    position: relative;
+    width: 1900px;
+    translate: 21% 50%;
+    background-color: white;
+
+}
+#container-top {
+    position: relative;
+    left: 60px;
+}
+#container-line {
+    border: black 1px solid;
+    position: absolute;
+    width: 1000px;
+    margin-bottom: 100px;
+}
+table {
+    margin: auto;
+    width: 90%;
+
+}
+#table tr td {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#table tr th {
+    background-color: #456797;
+    border: #456797 solid 1px;
+    border-width: 1px;
+    padding: 15px 0 ;
+    color: white;
+    width: 10px;
+}
+.eyemv {
+    margin-right: 30px;
+    padding-top: 3px;
+}
