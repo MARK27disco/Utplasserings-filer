@@ -1,0 +1,426 @@
+/*main body*/
+
+body {
+    background-color: rgb(228, 226, 226);
+    overflow-x: hidden;
+    margin: 0;
+    overflow-y: hidden;
+    font-family: "Nunito Sans", sans-serif;
+    color: #082143;
+}
+/*The top border */
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    /* justify-items: center; */
+}
+#img {
+    position: relative;
+    margin-top: 16px;
+}
+
+.line {
+    border: 1px solid white;
+    height: 50px;
+    margin: 0px 4px;
+    /* margin-right: 20px;
+    margin-top: 7px; */
+}
+
+#jorg {
+    border: 3px solid;
+    border-color: white;
+    margin-right: 97%;
+    border-radius: 100%;
+    /* margin-right: 10px;
+    margin-top: 7px; */
+}
+
+#bell {
+    position: relative;
+    /* margin-right: 35px;
+    margin-top: 19px; */
+}
+
+#top {
+    height: 70px;
+    border: solid;
+    background-color: #082143;
+    border-color: #082143;
+    display: flex;
+    top: 0;
+
+}
+#name {
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#topLeft {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    gap: 40px;
+    top: 5px;
+    left: 10px;
+
+}
+
+#topRight {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    gap: 25px;
+
+}
+
+#barmnu {
+    position: relative;
+
+}
+/*The left border*/
+
+#left {
+    height: 100vw;
+    width: 100px;
+    margin-right: 95%;
+    background-color: #082143;
+}
+
+#lefttop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 110px;
+    left: 26px;
+    align-content: space-between;
+}
+
+.lline {
+    border: 2px solid white;
+    width: 50px;
+    margin-bottom: 31px;
+    border-radius: 19%;
+}
+
+#leftbottom {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 50px;
+    left: 32px;
+}
+ /* Containers */
+.fag {
+    border: solid 2px #082143;
+    padding-top: 10px;
+    width: 1860px;
+    height: 400px;
+    background-color: white;
+    overflow: inherit;
+    color: #082143;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    border-radius: 0.5%;
+
+}
+#mcontent {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 450px;
+    top: 140px;
+    gap: 100px;
+}
+/* search buttons */
+#search {
+    position: absolute;
+    right: 62px;
+    top: 35px;
+    
+}
+#search input {
+    height: 30px;
+    width: 215px;
+    padding-left: 40px;
+    border-radius: 3%;
+    background-color: #E7EBF2;
+    text-align: left center;    
+
+}
+#searchbutton {
+
+    position: absolute;
+    top: 7px;
+    left: 14px;
+}
+
+#search2 {
+    position: absolute;
+    right: 62px;
+    padding-left: 1528px;
+    bottom: 485px;
+
+
+}
+#search2 input {
+    height: 30px;
+    width: 215px;
+    padding-left: 40px;
+    background-color: #E7EBF2;
+    text-align: left center;
+    border-radius: 3%;
+}
+#searchbutton2 {
+    position: absolute;
+    top: 7px;
+    right: 230px;
+}
+
+/* The upper container*/
+
+#mfag {
+    display: flex;
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #082143;
+}
+
+#fagcont {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: -px;
+}
+
+#fagline {
+    border: 1px #082143 solid;
+    position: absolute;
+    width: 1760px;
+    top: 80px;
+    left: 40px;
+}
+/* The subject boxes */
+#history {
+    border: solid 1px #082143;
+    position: relative;
+    text-align: center;
+    margin-right: 5px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: start;
+    text-decoration: #082143;
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #082143;
+}
+
+#engelsk {
+    border: solid 1px black;
+    position: relative;
+    text-align: center;
+    margin-right: 10px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: start;
+    text-decoration: #082143;
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #082143;
+}
+
+#liv {
+    border: solid 1px black;
+    position: relative;
+    text-align: center;
+    margin-right: 10px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: start;
+    text-decoration: #082143;
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #082143;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,5);
+}
+
+#physics {
+    border: solid 1px black;
+    text-align: center;
+    margin-right: 50px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: start;
+    text-decoration: #082143;
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #082143;
+}
+
+/* subsettings for subject boxes */
+
+.space {
+    margin-bottom: 50px;
+}
+
+#physics ul p{
+    margin-left: -65px;
+    padding-left: 40px;
+    margin-bottom: -1px;
+}
+#history ul p{
+    margin-left: -65px;
+    padding-left: 40px;
+    margin-bottom: -1px;
+}
+#engelsk ul p{
+    margin-left: -65px;
+    padding-left: 40px;
+    margin-bottom: -1px;
+}
+#liv ul p{
+    margin-left: -65px;
+    padding-left: 40px;
+    margin-bottom: -1px;
+}
+
+.linex {
+    margin-top: -12px;
+    margin-bottom: -10px;
+    color: #082143;
+}
+
+#hist_sub {
+    display: flex;
+    gap: 64px;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#engsub {
+    display: flex;
+    gap: 64px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#livsub {
+    display: flex;
+    gap: 64px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#physub {
+    display: flex;
+    gap: 64px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.tema {
+    padding: 0 55px;
+    padding-bottom: 0px;
+    background-color: white;
+    border-color: white;
+    border: white solid 1px;
+    padding-bottom: 10px;
+}
+
+/*lower container */
+
+#minnhold {
+    padding-left: 100px;
+}
+#innline  {
+    border: 1px #082143 solid;
+    position: absolute;
+    width: 1700px;
+    bottom: 475px;
+    left: 99px;
+    color: #082143;
+}
+
+#mittinnholdcontainer {
+    height: 545px;
+    color: #082143;
+}
+
+/* Tabel settings */
+
+#tabel {
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    
+}
+#tabel tr td {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    
+}
+#tabel tr th {
+    background-color: #456797;
+    border: #456797 solid 1px;
+    border-width: 1px;
+    padding: 15px 0 ;
+    color: white;
+    
+}
+.grey {
+    color: grey;
+}
+#blue {
+    background-color: #E0E8F4;
+    border-left: 2px #456797 solid;
+    border-top: 2px #456797 solid;
+    border-right: 2px #456797 solid;
+}
+.blueextra{
+    border-left: 2px #456797 solid;
+    border-right: 2px #456797 solid;
+}
+#bordfix1 {
+    border-bottom: 2px #456797 solid;
+}
+#bordfix2 {
+    border-bottom: 2px #456797 solid;
+}
+.eye{
+    width: 20px;
+}
+
+.mvarrw img{
+    left: 130px;
+    position: absolute;
+    color: #082143;
+}
+tr {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#arrwdwn img {
+    left: 130px;
+    position: absolute;
+}
+
+
+/* ------------------------------------------- */
+
+
