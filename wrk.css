@@ -424,39 +424,136 @@ tr {
     border: black 1px solid;
     position: relative;
     width: 1900px;
-    translate: 21% 50%;
+    translate: 21% 35%;
     background-color: white;
+    padding-bottom: 120px;
 
 }
 #container-top {
     position: relative;
-    left: 60px;
+    left: 0px;
 }
 #container-line {
     border: black 1px solid;
     position: absolute;
-    width: 1000px;
-    margin-bottom: 100px;
+    width: 1750px;
+    margin-bottom: 10px;
+    margin-left: 80px;
 }
 table {
-    margin: auto;
-    width: 90%;
+    margin-left: 180px;
 
 }
+#OPPRET{
+    width: 230px;
+}
+#TEMA {
+    text-align: left;
+    width: 200px;
+}
+#BESK {
+    text-align: left;
+    width: 800px;
+}
+#MATERIALL {
+
+}
+#dots {
+    width: 120px;
+}
 #table tr td {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    font-size: 18px;
 }
 #table tr th {
     background-color: #456797;
     border: #456797 solid 1px;
     border-width: 1px;
-    padding: 15px 0 ;
+    padding: 10px 0 ;
     color: white;
-    width: 10px;
 }
 .eyemv {
-    margin-right: 30px;
+    margin-right: 10px;
     padding-top: 3px;
+}
+.less {
+    width: 250px;
+}
+#centered {
+    text-align: center;
+}
+.mvarrw2 img{
+    left: 205px;
+    position: absolute;
+    color: #082143;
+}
+.slightlysmal {
+    padding: 15px 0 !important;
+}
+#container-top h1 {
+    margin-bottom: 2px;
+    padding-left: 80px;
+}
+#box_container {
+    position: relative;
+    left: 1000px;
+    top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#selecthistory {
+    width: 350px;
+    height: 70px;
+    padding-left:10px;
+    font-size: 20px;
+    color: grey;
+    appearance: none;
+    background-image: url("../images/linearrow.svg");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 42px;
+    border-color: #456797;
+    margin-right: 20px;
+    border-radius: 3%;
+}
+
+#selecthistory > option {
+    padding-left: 10px;
+}
+#selectclass > option {
+    padding-left: 10px;
+}
+#selectclass {
+    width: 350px;
+    font-size: 20px;
+    color: grey;
+    appearance: none;
+    background-image: url("../images/linearrow.svg");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 42px;
+    border-color: #456797;
+    margin-left: 20px;
+    border-radius: 3%;
+    padding-left: 10px;
+}
+#title {
+    display: flex;
+    margin-left: 1250px;
+    flex-direction: row;
+    width: 550px;
+    padding-top: 10px;
+    margin-bottom: -150px;
+    justify-content: flex-start;
+}
+#title H1 {
+    font-size: 40px;
+    color: #082143;
+}
+#picmove {
+    margin-left: 40px;
+}
+#title img {
+    padding-left: 5px;
 }
